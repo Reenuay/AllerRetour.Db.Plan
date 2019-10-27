@@ -1,9 +1,11 @@
 # Change management for Aller Retour database
 
-Technologies used:
-  * git
-  * sqitch
-  * postgresql
+### Technologies used:
 
-Links:
-  * https://sqitch.org
+* git
+* sqitch
+* postgresql
+
+### Links:
+
+* https://sqitch.org
