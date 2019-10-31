@@ -6,3 +6,4 @@ customers 2019-10-30T20:47:55Z Rustam Azizov <reenuay777@gmail.com> # Add custom
 customer_profiles [customers] 2019-10-31T17:32:59Z Rustam Azizov <reenuay777@gmail.com> # Add customer_profiles table
 merchants 2019-10-31T17:56:09Z Rustam Azizov <reenuay777@gmail.com> # Add merchants table
 operations [customers merchants] 2019-10-31T18:15:04Z Rustam Azizov <reenuay777@gmail.com> # Add operations table
+@v1.0.0-dev1 2019-10-31T20:08:11Z Rustam Azizov <reenuay777@gmail.com> # Tag v1.0.0-dev1
