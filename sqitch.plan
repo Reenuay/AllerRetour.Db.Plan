@@ -5,3 +5,4 @@
 customers 2019-10-30T20:47:55Z Rustam Azizov <reenuay777@gmail.com> # Add customers table
 customer_profiles [customers] 2019-10-31T17:32:59Z Rustam Azizov <reenuay777@gmail.com> # Add customer_profiles table
 merchants 2019-10-31T17:56:09Z Rustam Azizov <reenuay777@gmail.com> # Add merchants table
+operations [customers merchants] 2019-10-31T18:15:04Z Rustam Azizov <reenuay777@gmail.com> # Add operations table
