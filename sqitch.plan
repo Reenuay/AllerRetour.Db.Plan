@@ -3,3 +3,4 @@
 %uri=https://bitbucket.org/allerretour/db-plan/src/master/
 
 customers 2019-10-30T20:47:55Z Rustam Azizov <reenuay777@gmail.com> # Add customers table
+customer_profiles [customers] 2019-10-31T17:32:59Z Rustam Azizov <reenuay777@gmail.com> # Add customer_profiles table
