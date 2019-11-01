@@ -7,3 +7,5 @@ customer_profiles [customers] 2019-10-31T17:32:59Z Rustam Azizov <reenuay777@gma
 merchants 2019-10-31T17:56:09Z Rustam Azizov <reenuay777@gmail.com> # Add merchants table
 operations [customers merchants] 2019-10-31T18:15:04Z Rustam Azizov <reenuay777@gmail.com> # Add operations table
 @v1.0.0-dev1 2019-10-31T20:08:11Z Rustam Azizov <reenuay777@gmail.com> # Tag v1.0.0-dev1
+
+customers.is_deactivated 2019-11-01T17:33:22Z Rustam Azizov <reenuay777@gmail.com> # Add is_deactivated column to customers table
