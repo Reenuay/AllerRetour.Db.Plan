@@ -41,13 +41,6 @@ ALTER DATABASE ar_dev OWNER TO aller_retour;
 
 Now you can login with peer authentication as aller_retour user with ar_* databases.
 
-Add your name and email to sqitch user level config.
-
-``` bash
-sqitch config --user user.name 'Firstname Lastname'
-sqitch config --user user.email 'example@gmail.com'
-```
-
 Login with aller_retour user in your command line and download git repo.
 
 ``` bash
@@ -56,6 +49,13 @@ mkdir dev
 cd dev
 git clone git@bitbucket.org:allerretour/db-plan.git
 
+```
+
+Add your name and email to sqitch user level config.
+
+``` bash
+sqitch config --user user.name 'Firstname Lastname'
+sqitch config --user user.email 'example@gmail.com'
 ```
 
 Copy example configuration file to sqitch.conf and add necessary data.
