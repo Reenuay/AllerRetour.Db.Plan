@@ -8,7 +8,7 @@ SELECT
   password_hash,
   card_id,
   date_created,
-  is_verified_email
+  email_confirmed
 FROM customers
 WHERE FALSE;
 
