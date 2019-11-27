@@ -30,13 +30,13 @@ Create new database user with the same name as your Aller Retour OS user.
 CREATE USER aller_retour WITH PASSWORD "Your password goes here";
 ```
 
-Create dev, test and prod databases.
+Create database.
 
 ``` sql
--- Make the same for ar_test and ar_prod databases
-CREATE DATABASE ar_dev;
-REVOKE ALL ON DATABASE ar_dev FROM public;
-ALTER DATABASE ar_dev OWNER TO aller_retour;
+-- If you have different databases do it for each of them
+CREATE DATABASE aller_retour;
+REVOKE ALL ON DATABASE aller_retour FROM public;
+ALTER DATABASE aller_retour OWNER TO aller_retour;
 ```
 
 Now you can login with peer authentication as aller_retour user with ar_* databases.
@@ -58,7 +58,7 @@ sqitch config --user user.name 'Firstname Lastname'
 sqitch config --user user.email 'example@gmail.com'
 ```
 
-Copy example configuration file to sqitch.conf and add necessary data.
+Copy example configuration file to sqitch.conf and make necessary changes.
 
 ``` bash
 cd db-plan
@@ -75,7 +75,7 @@ sqitch status
 You should see something like that:
 
 ``` bash
-# On database dev
+# On database aller_retour
 No changes deployed
 ```
 
