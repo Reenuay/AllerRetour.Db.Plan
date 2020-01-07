@@ -10,3 +10,4 @@ operations [customers merchants] 2019-10-31T18:15:04Z Rustam Azizov <reenuay777@
 
 customers.is_deactivated 2019-11-01T17:33:22Z Rustam Azizov <reenuay777@gmail.com> # Add is_deactivated column to customers table
 email_confirmed [customers] 2019-11-12T14:10:51Z Rustam Azizov <reenuay777@gmail.com> # Rename customers.is_verified_email to email_confirmed
+email_confirmation_tokens 2020-01-07T11:06:43Z Rustam Azizov <reenuay777@gmail.com> # Add email confirmation tokens table
