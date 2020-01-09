@@ -3,6 +3,7 @@
 BEGIN;
 
 SELECT
+  id,
   email,
   token,
   is_used,
