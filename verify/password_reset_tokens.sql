@@ -4,7 +4,7 @@ BEGIN;
 
 SELECT
   id,
-  customer_id,
+  email,
   token_hash,
   date_expires
 FROM password_reset_tokens
