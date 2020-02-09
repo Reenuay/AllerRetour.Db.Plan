@@ -4,7 +4,7 @@ BEGIN;
 
 SELECT
   id,
-  email,
+  customer_id,
   token_hash,
   date_expires
 FROM email_confirmation_tokens
