@@ -17,7 +17,7 @@ gcc -v
 yum install gcc
 ```
 
-Login as postges admin.
+Login as postgres admin.
 
 ``` bash
 su - postgres
